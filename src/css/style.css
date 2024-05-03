@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    background-color: var(--Eggshell);
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 35vw;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.parte-1 h1{
+    font-size: 2rem;
+
+}
+
+.titulo, .subtitulo{
+    font-family:'Young Serif', sans-serif;
+}
+
+.parte-1 p,.time{
+    margin: 15px 0;
+}
+
+.time{
+    background-color: var(--RoseWhite);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time .preparation{
+    font-size: 1.4rem;
+    color: var(--darkRaspberry);
+}
+
+ ul, ol{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.time li::marker{
+    color: var(--darkRaspberry);
+}
+
+ .parte-1 ul li, .point-inst li, .table{
+    margin: 10px 0;
+}
+
+
+span{
+    font-weight: 600;
+}
+
+.subtitulo{
+    font-size: 1.5rem;
+    color: var(--Nutmeg);
+}
+
+.point-meg li::marker{
+    color: var(--Nutmeg);
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border-color: var(--LightGrey);
+    border-width: 1px;
+  }
+
+  .parte-2{
+    padding: 10px 0;
+  }
+
+
+
+.point-inst li::marker{
+    font-size: 1.2rem;
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.mini-container{
+    display: flex;
+}
+
+.mini-container .p1{
+    width: 50%;
+    padding-left: 20px;
+}
+
+.mini-container .p2{
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+
+@media(max-width:600px){
+    
+    body{
+        padding: 0;
+    }
+    .container{
+        width: 100vw;
+        border-radius: 0;
+        
+    }
+
+}
+
